@@ -10,5 +10,5 @@ print('Connected by', addr)
 while True:
     data = conn.recv(1024)
     if not data: break
-    conn.send(data) 		#받은 데이터를 그대로 클라이언트에 전송
+    conn.send(data) 		#받은 데이터를 그대로 클라이언트에 전송 
 conn.close()
