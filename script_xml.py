@@ -44,11 +44,6 @@ class Data:
             print(a.findtext('SMPL_DESC'))
             print('*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=')
             print('\n')
-
-    #파싱하기
-    #tree = etree.parse(filename)
-    #root = tree.getroot()
-
 def main():
     data = Data()
     while(True):
