@@ -64,7 +64,7 @@ class Data:
 
         msg = MIMEText(_text, _charset= 'utf8')
         msg = MIMEBase("multipart", "alternative")
-        msg['Subject'] = "\n"
+        msg['Subject'] = "hello"
         msg['From'] = senderAddr
         msg['To'] = recipientAddr
 
