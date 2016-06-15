@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9ac053d3-e8a9-43bf-8b97-b722664c2ba2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>script_xml.py</StartupFile>
+    <StartupFile>my_Script.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,11 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="module1.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="mysmtplib.py" />
-    <Compile Include="script_xml.py" />
+    <Compile Include="my_Script.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
